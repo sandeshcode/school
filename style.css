@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Sora', sans-serif;
+}
+body{
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+:root{
+    --primary:indianred;
+    --secondary:black;
+    --light:#2f3640;
+}
+header{
+    width: 100%;
+    height: 100vh;
+}
+.nav1{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 2px 0px 3px grey;
+    text-align: center;
+    background-color: antiquewhite;
+    position: sticky;
+    top: 0;
+}
+
+    .nav1 .left{
+        letter-spacing: 2px;
+        flex-basis: 50%;
+    }
+    .nav1 .left a{
+        text-decoration: none;
+        color: var(--primary);
+        font-weight: bold;
+        margin: 0px 5px;
+    }
+    .nav1 .right{
+        flex-basis: 50%;
+    }
+    .right i{
+        font-size: 20px;
+        margin: 0px 15px;
+        background-color: var(--primary);
+        color: white;
+        padding: 8px;
+        cursor: pointer;
+        transition: 0.4s ease-in-out;
+    }
+    .right i:hover{
+        transform: rotate(360deg);
+    }
+        .nav2{
+            width: 100%;
+            height: 120px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            flex-wrap: wrap;
+        }
+        .nav2 .nav2-left,.nav2 .nav2-middle,.nav2 .nav2-right{
+            flex-basis: 30%;
+            margin: auto;
+            cursor: pointer;
+        }
+        .nav2 .nav2-left i{
+            margin-left: 15px;
+        }
+        .nav2 .nav2-right {
+            margin-left: 15px;
+        }
+        .nav2 .nav2-middle h1{
+            color: var(--primary);
+            font-weight: bold;
+            font-size: 40px;
+            letter-spacing: 2px;
+        }
+        .nav2 .nav2-middle h1 span{
+            color: var(--secondary);
+        }
+        .nav2 .nav2-middle p{
+            color: grey;
+            font-size: 15px;
+            margin-top: 5px;
+        }
+        .nav2 .nav2-right i{
+            margin: 0px 5px;
+        }
+
+        .nav3{
+            width: 100%;
+            height: 120px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            text-align: center;
+            background: #333;
+            
+        }
+      
+        .menu a{
+            text-decoration:none;
+            padding: 10px 20px;
+            color: black;
+            font-size: 20px;
+            font-family: sans-serif;
+             text-align: center;
+             color: white;
+             text-transform: uppercase;
+        
+        }
+        .menu a:hover{
+            color: rgb(18, 212, 247);
+        }
+      
+        .menu a:last-child{
+             background-color: crimson;
+        }
+
+        .container{
+            width: 100%;
+            height: 80vh;
+            background: linear-gradient(to right,rgba(0,0,0,1)20%,rgba(255,255,255,0.1)), url('sch.jpg');
+            background-size: cover;
+            background-position:top ;
+            position: relative;
+        
+        }
+        .container-text{
+            max-width: 500px;
+            position: absolute;
+            top: 50%;
+            left: 15%;
+            text-align: center;
+            color: white;
+            letter-spacing: .1rem;
+            font-size: 2rem;
+            font-family: sans-serif;
+            cursor: pointer;
+        }
+        .container-text button{
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            color: black;
+            background-color: violet;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        .container-text h3{
+            font-family: cursive;
+        }
+
+
+       .about{
+           width: 100%;
+           height: 80vh;
+           margin-top: 250px;
+           background-color: #2f3640;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+       }
+      .about .content img{
+           height: 500px;
+           width: 400px;
+           max-width: 40%;
+           padding-bottom: 30px;
+           
+       }
+       .content{
+           display: flex;
+           justify-content: space-around;
+           align-items: center;
+           margin: 0 auto;
+           flex-wrap: wrap;
+           width: 1200px;
+       }
+
+       .text h1{
+           font-family: cursive;
+           font-size: 40px;
+       }
+      
+      
+        
